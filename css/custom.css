@@ -5,18 +5,22 @@
 header{
   height: 100%;
   background-color: #35586C;
-  padding: 100px;
+  padding:0px;
   position: fixed;
   text-align: center;
   width: 100%;
   top: 0;
 }
 
+a{
+  font-size: 15px;
+}
+
 body {
   font-family: sans-serif;
-  padding-top: 300px;
   background-color: white;
   position:relative;
+
 }
 
 section:not([id]) {
@@ -92,7 +96,7 @@ cite {
 .button-nav {
   display: inline;
   color: #FFF;
-  border-radius: 0.25em;
+  border-style: none;
   text-decoration: none;
   float: none;
   width: 100%;
@@ -106,15 +110,11 @@ cite {
   background-color: orange;
 }
 
-.jumbotron{
-  background-color: #35586C;
-  height: 500px;
-}
 
 .navbar,
 .navbar-collapse,
 .nav{
-  padding: 20px;
+
   position:relative;
   float: left;
   width: 100%;
@@ -122,7 +122,11 @@ cite {
   border-style: none;
   z-index: 150;
   text-align:center;
+  padding: 10px;
+}
 
+.navbar{
+  box-shadow: 0 2px 3px rgba(0,0,0, .4);
 }
 
 .navbar li{
@@ -133,6 +137,7 @@ cite {
 .testContent{
   background-color: white;
   position:relative;
+  padding: 20px;
 }
 
 .icon-bar{
@@ -142,15 +147,41 @@ cite {
 
 .navbar-toggle{
   float:right;
-  background-color: orange;
+  background-color: pink;
+  border-style: none;
+  box-shadow: 0 2px 3px rgba(0,0,0, .4);
 }
 
+/*code for the navbar when it is scrolling*/
 .navbar-scrolled{
   position: fixed;
   top: 0;
-  padding: 20px;
+  padding: 10px;
 }
 
+.calling-card{
+  background-color: pink;
+  padding-top: 175px;
+  padding-bottom: 175px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.logo{
+  max-width: 32.5%;
+  max-height: 20%;
+}
+
+.cc-text{
+  color: white;
+}
+
+.drag-sign{
+  padding-top: 175px;
+  color:white;
+}
 /* 
   TEXT ELEMENTS -------------------
 */
