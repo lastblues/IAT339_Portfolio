@@ -2,9 +2,21 @@
   STYLE GUIDE STYLING 
   Default styling for the style guide 
 */
+header{
+  height: 100%;
+  background-color: #35586C;
+  padding: 100px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  top: 0;
+}
+
 body {
   font-family: sans-serif;
   padding-top: 300px;
+  background-color: white;
+  position:relative;
 }
 
 section:not([id]) {
@@ -59,6 +71,14 @@ ul.citations li strong {
   font-style: italic;
 }
 
+ul{
+  text-align: center;
+}
+
+li{
+  text-align: center;
+}
+
 cite {
   font-style: normal;
 }
@@ -68,28 +88,22 @@ cite {
   INTERACTIVE ELEMENTS -------------------
 */
 
-header{
-  height: 300px;
-  background-color: #35586C;
-  padding-top: 50px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-}
 /* Styling for the navigation button */
 .button-nav {
-  display: inline-block;
-  padding: 0.5em 0.75em;
+  display: inline;
   color: #FFF;
-  background-color: #333;
   border-radius: 0.25em;
   text-decoration: none;
+  float: none;
+  width: 100%;
+  text-align: center;
+
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
 
 .button-nav:hover, .button-nav:focus {
-  background-color: #999;
+  background-color: orange;
 }
 
 .jumbotron{
@@ -100,14 +114,41 @@ header{
 .navbar,
 .navbar-collapse,
 .nav{
+  padding: 20px;
   position:relative;
-  z-index: 150;
-  text-align: center;
   float: left;
+  width: 100%;
+  background-color: orange;
+  border-style: none;
+  z-index: 150;
+  text-align:center;
+
 }
 
-.container{
+.navbar li{
+  float:none;
+  display: inline-block;
+}
+
+.testContent{
+  background-color: white;
   position:relative;
+}
+
+.icon-bar{
+  display: inline;
+  float:none;
+}
+
+.navbar-toggle{
+  float:right;
+  background-color: orange;
+}
+
+.navbar-scrolled{
+  position: fixed;
+  top: 0;
+  padding: 20px;
 }
 
 /* 
