@@ -98,8 +98,7 @@ cite {
   color: #FFF;
   border-style: none;
   text-decoration: none;
-  float: none;
-  width: 100%;
+  float: right;
   text-align: center;
 
   -webkit-transition: background-color 0.5s ease-out;
@@ -116,7 +115,7 @@ cite {
 .nav{
 
   position:relative;
-  float: left;
+  float: right;
   width: 100%;
   background-color: orange;
   border-style: none;
@@ -129,9 +128,10 @@ cite {
   box-shadow: 0 2px 3px rgba(0,0,0, .4);
 }
 
+.navbar ul{
+}
+
 .navbar li{
-  float:none;
-  display: inline-block;
 }
 
 .testContent{
@@ -141,13 +141,12 @@ cite {
 }
 
 .icon-bar{
-  display: inline;
   float:none;
 }
 
 .navbar-toggle{
   float:right;
-  background-color: pink;
+  background-color: orange;
   border-style: none;
   box-shadow: 0 2px 3px rgba(0,0,0, .4);
 }
@@ -159,8 +158,14 @@ cite {
   padding: 10px;
 }
 
+.navbar-logo-scrolled{
+  position: fixed;
+  top: 0;
+  padding: 10px;
+}
+
 .calling-card{
-  background-color: pink;
+  background-color: #35586C;
   padding-top: 175px;
   padding-bottom: 175px;
   position: relative;
@@ -182,6 +187,31 @@ cite {
   padding-top: 175px;
   color:white;
 }
+
+.footer{
+  text-align: center;
+  background-color: orange;
+}
+
+.skill-icon{
+  display: inline;
+  float:none;
+  color: white;
+  font-size: 35px;
+  padding: 20px;
+}
+
+.navbar-logo{
+  float: left;
+
+}
+
+/*style guide for the scrollpsy*/
+ #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
 /* 
   TEXT ELEMENTS -------------------
 */
