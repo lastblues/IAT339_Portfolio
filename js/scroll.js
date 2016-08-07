@@ -6,12 +6,10 @@ hdr = $('header').height();
 	add the navbar-scrolled class which will add new attributes and fucntion
 	*/
 $(window).scroll(function(){
-	if( $(this).scrollTop() > 950){
+	if( $(this).scrollTop() > 750){
 		mn.addClass(mns);
-		nl.addClass(nls);
 	}
 	else{
 		mn.removeClass(mns);
-		nl.addClass(nls);
 	}
 });
