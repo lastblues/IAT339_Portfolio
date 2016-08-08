@@ -14,6 +14,7 @@ header{
 
 h1{
   color: white;
+  padding: 20px;
 }
 a{
   font-size: 15px;
@@ -118,7 +119,7 @@ cite {
 .nav{
 
   position:relative;
-  height: 50px;
+  height: auto;
   background-color: #65767F;
   border-style: none;
   z-index: 150;
@@ -185,6 +186,7 @@ cite {
 .logo{
   max-width: 32.5%;
   max-height: 20%;
+  
 }
 
 .cc-text{
@@ -216,6 +218,10 @@ cite {
 .img-rounded{
 }
 
+.col-sm-8{
+  padding: 20px;
+}
+
 /*style guide for the scrollpsy*/
  #section1 {
   padding-top:50px;
@@ -228,7 +234,7 @@ cite {
   background-color: #35586C;
 }
 
- #section2 {
+#section2 {
   padding-top:50px;
   padding-bottom: 50px;
   height:auto; 
@@ -242,15 +248,22 @@ cite {
  #section3 {
   padding-top:50px;
   padding-bottom: 50px;
-  height:auto;
-  color: #fff; 
-  background-color: #ff9800;
+  height:auto; 
+  background-color: white;
 }
+
+#section3 h1{
+  background-color: #7DD0FF;
+ }
 
 .section-tab{
   padding: 30px 20px;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.section-tab p{
+  padding: 15px;
 }
 
 .btn-info{
@@ -264,6 +277,22 @@ cite {
 .btn-cont{
   text-align: center;
   padding: 150px 20px 20px 20px;
+}
+
+.banner{
+  text-align: center;
+}
+
+.contact-icon{
+  font-size: 100px;
+  text-align: center;
+  color: #35586C;
+}
+
+
+img.center{
+  display:block;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 770px){

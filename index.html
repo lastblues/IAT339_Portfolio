@@ -25,7 +25,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!--
     <header>
       <h1> TEST TEXT </h1>
@@ -42,6 +42,7 @@
       <p class= "drag-sign"><span class="glyphicon glyphicon-chevron-up"></span></p>
     </div>
 
+
     <!--NAVBAR-->
     <!-- code from: w3school.com tutorials -->
   <nav class="navbar"> 
@@ -56,92 +57,89 @@
       </button>
     </div>
 
-
-
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"> PROJECTS</a></li>
-        <li><a href="#"> RESUME</a></li>
-        <li><a href="#"> CONTACT</a></li>
+        <li><a href="index.html"> HOME</a></li>
+        <li><a href="#section1"> PROJECTS</a></li>
+         <li><a href="https://drive.google.com/open?id=0B8OMxDh3F_gETHdHaGRJd1FmYkU"> RESUME</a></li>
+        <li><a href="#section3"> CONTACT</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
 <!--PROJECT CONTENT-->
-  <div id="section1" class="container-fluid section-tab">
+<div class="row banner">
+  <div id="section1" class="container-fluid">
+  <img class="img-responsive img-rounded center" src="img/banner.gif" alt="banner">
+  <h3>3D Animator. Video Editor. Sound Designer. Gamer.</h3>
+  <h4>Multimedia designer by day, hardcore gamer by night (I work at nights too!)</h4>
+</div>
+</div>
+
+<!--PROJECT CONTENT-->
+  <div id="section1"> 
+    <div class="container-fluid section-tab">
 
       <h1>PROJECTS</h1>
 
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>You will find the list of different projects I have worked on over my undergraduate career. Projects vary from academic to personal project and they showcase my skills in creating multimedia content.</p>
 
       <div class="row section-tab">
         <div class="col-sm-4">
         <img class="img-responsive img-rounded" src="img/project1.gif" alt="Project 1">
         </div>
+
         <div class="col-sm-8">
-        <h3> INSERT PROJECT TITLE HERE</h3>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <h3> Corporate Identity Designer: Fukui Byora</h3>
+        <p>I had the opportunity in the fall of 2014 to take part in the international Co-op program in Japan. I was hired by Fukui Byora Ltd., as their corporate identity designer. Fukui Byora is a cold heading specialist located in Fukui, Japan. Fukui Byora create heading parts such as fasteners for automotive, electronics and medical products across the world. My tasks included creating content for their newly launched website and promotional videos for advertisements and exhibitions.</p>
         </div>
+
        <div class="btn-cont">
-        <button type="button" class="btn-info">MORE</button>
+        <a href ="project1.html"><button type="button" class="btn-info">SEE MORE</button></a>
       </div>
       </div>
 
       <div class="row section-tab">
         <div class="col-sm-4">
-        <img class="img-responsive img-rounded" src="img/project2.gif" alt="Project 1">
+        <img class="img-responsive img-rounded" src="img/project2.gif" alt="Project 2">
         </div>
         <div class="col-sm-8">
-        <h3> INSERT PROJECT TITLE HERE</h3>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <h3> Be Human: A League of Legends Animation</h3>
+        <p>"Be Human" was the final  project of the computer animation course at SFU (IAT 437) course.  "Be Human" is a 3D adaptation of a League of Legends comic of the same title. The story features two robot characters, "Orianna" and "Blitcrank", where they question what it means to be a human.</p>
         </div>
         <div class="btn-cont">
-        <button type="button" class="btn-info">MORE</button>
+        <a href ="project2.html"><button type="button" class="btn-info">SEE MORE</button></a>
       </div>
       </div>
 
       <div class="row section-tab">
         <div class="col-sm-4">
-        <img class="img-responsive img-rounded" src="img/project3.gif" alt="Project 1">
+        <img class="img-responsive img-rounded" src="img/project4.gif" alt="Project 3">
         </div>
         <div class="col-sm-8">
-          <h3> INSERT PROJECT TITLE HERE</h3>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+          <h3> FoodBox: Remote Grocery Shopoping Interface Concept</h3>
+        <p>FoodBox is a kiosk user interface designed for online grocery shopping. This project was our five man team’s final project for an interface design course at Simon Fraser University. FoodBox was designed from the ground-up with our target audience being university students who lived on campus dormitories that wanted a convenient way to shop for their daily groceries. </p>
         </div>
         <div class="btn-cont">
-        <button type="button" class="btn-info">MORE</button>
+        <a href ="project3.html"><button type="button" class="btn-info">SEE MORE</button></a>
       </div>
       </div>
-
-  </div>
-
-<!--RESUME CONTENT-->
-  <div id="section2" class="container-fluid sections-tab">
-
-      <h1>RESUME</h1>
-
-      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-
-    <div class="row section-tab">
-        <div class="col-sm-4">
-        <img class="img-responsive img-rounded" src="img/project3.gif" alt="Project 1">
-        </div>
-        <div class="col-sm-8">
-          <h3> INSERT PROJECT TITLE HERE</h3>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        </div>
-        <div class="btn-cont">
-        <button type="button" class="btn-info">MORE</button>
-      </div>
-      </div>
+</div>
   </div>
 
 <!--PROJECT CONTENT-->
-<div id="section3" class="container-fluid">
+<div id="section3" class="container-fluid section-tab">
   <h1>CONTACT</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Want to contact or inquire about my work? There are various ways to reach me such as Social Media. Click below to be directed to the page where you can view all the ways you can reach me. I would love to hear from you.</p>
+
+  <div class="row section-tab">
+        <div class="col-sm-4 contact-icon">
+        <a href="contact.html">
+          <span class="glyphicon glyphicon-envelope contact-icon"></span>
+        </a>
+        </div>
+      </div>
 </div>
 
 
@@ -157,17 +155,6 @@
       </p>
     </div>
     <!--END OF FOOTER-->
-
-
-
-
-
-
-
-
-
-
-
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
